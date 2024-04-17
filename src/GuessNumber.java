@@ -8,7 +8,7 @@ public class GuessNumber { //Name of file
         int min = 1; 
         int max = 100; //Assigning value as 100 to have the upper bound be 100
         int rng = random.nextInt(max-min+1); //Creating random number with the upper bound being 100 and lower bound being 1
-        JOptionPane.showMessageDialog(null, rng);
+        //JOptionPane.showMessageDialog(null, rng); Just to check if it works 
 
         while (guess != rng) { //While the guess number is not the random number stay in the loop
             guess = Integer.parseInt(JOptionPane.showInputDialog("Guess a number between 1 - 100")); //Show message for the input of a number
