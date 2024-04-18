@@ -4,8 +4,8 @@ import java.util.*; //Importing java util
 public class GuessNumber { //Name of file
     public static void game() { //Creating a method
         Random random=new Random(); //Using imported function
-        int guess = 0; //Declaring variable and assigning value
-        int min = 1; 
+        int guess = 0; //Declaring variable, assigning value, and for it to enter the while loop
+        int min = 1; //Lower bound of the random number generator
         int max = 100; //Assigning value as 100 to have the upper bound be 100
         int rng = random.nextInt(max-min+1); //Creating random number with the upper bound being 100 and lower bound being 1
         //JOptionPane.showMessageDialog(null, rng); Just to check if it works 
@@ -20,5 +20,5 @@ public class GuessNumber { //Name of file
             }
         }
         JOptionPane.showMessageDialog(null, "You have guessed the right number!"); //If you guessed correctly display this message
-    }
-}
+    } //end of method game
+} //end of class GuessNumber

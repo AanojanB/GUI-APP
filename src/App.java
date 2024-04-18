@@ -13,5 +13,5 @@ public class App { //Name of the file
         }
         JOptionPane.showMessageDialog(null, "Congraluations, It is true that elephants are mammals!");//Shows this message if not in loop
         GuessNumber.game(); //Calling the method called game from the class file GuessNumber
-    }
-}
+    } //end of main method
+} //end of class App
